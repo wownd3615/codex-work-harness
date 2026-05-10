@@ -1,0 +1,8 @@
+.codex-snapshots/
+*.bak-*
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/

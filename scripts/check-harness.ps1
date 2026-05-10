@@ -1,0 +1,40 @@
+param(
+  [string]$Root = "."
+)
+
+$ErrorActionPreference = "Stop"
+$rootPath = (Resolve-Path $Root).Path
+
+$required = @(
+  "AGENTS.md",
+  "harness/00-start-here.md",
+  "harness/05-truthfulness.md",
+  "harness/40-code-rules.md",
+  "harness/45-safety-backups.md",
+  "harness/57-cad-lsp.md",
+  "harness/80-done-checklist.md",
+  "scripts/apply-to-project.ps1",
+  "scripts/install-skill.ps1",
+  "scripts/snapshot.ps1"
+)
+
+$missing = @()
+foreach ($item in $required) {
+  $path = Join-Path $rootPath $item
+  if (!(Test-Path $path)) { $missing += $item }
+}
+
+if ($missing.Count -gt 0) {
+  Write-Output "Missing harness files:"
+  $missing | ForEach-Object { Write-Output "- $_" }
+  exit 1
+}
+
+$status = Join-Path $rootPath "docs/.pdca-status.json"
+if (!(Test-Path $status)) {
+  Write-Output "PDCA status file not found. This is OK for quick fixes."
+} else {
+  Write-Output "PDCA status file found."
+}
+
+Write-Output "Harness OK: $rootPath"
