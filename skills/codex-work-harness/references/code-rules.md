@@ -10,3 +10,5 @@ Before deletion, check references with `rg`. If unsure, report a deletion candid
 
 Separate files by role when it improves maintenance now. Extract shared functions/components only after a second use or clear immediate reuse. Do not split short one-off code just to look structured.
 
+For refactoring, quality gates, UI components, or repeated patterns, also use `code-quality-gates.md` and `consistency-system.md`.
+

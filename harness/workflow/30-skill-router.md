@@ -8,6 +8,7 @@
 - skill 설치: `skill-installer`
 - OpenAI API/모델/문서: `openai-docs`
 - 브라우저에서 로컬 앱 확인: `browser-use:browser`
+- UI/UX 구현 또는 검증: `harness/domains/58-consistency-system.md`, `harness/domains/59-visual-design.md`를 먼저 적용하고, 로컬 화면 확인이 필요하면 `browser-use:browser`
 - 문서 `.docx`: `documents:documents`
 - 발표자료 `.pptx`: `presentations:Presentations`
 - 엑셀/CSV: `spreadsheets:Spreadsheets`
@@ -18,4 +19,5 @@
 - skill의 `SKILL.md`만 먼저 읽는다.
 - 추가 reference는 필요한 파일만 연다.
 - 웹 검색은 최신 정보, 공식 문서, 가격/정책/제품 정보처럼 변할 수 있는 내용에만 사용한다.
+
 

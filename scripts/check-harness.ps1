@@ -17,10 +17,18 @@ $required = @(
   "harness/workflow/25-planning-cycle.md",
   "harness/coding/40-code-rules.md",
   "harness/coding/42-comment-rules.md",
+  "harness/coding/43-code-quality-gates.md",
   "harness/coding/45-safety-backups.md",
+  "harness/domains/56-security-hardening.md",
   "harness/domains/57-cad-lsp.md",
+  "harness/domains/58-consistency-system.md",
+  "harness/domains/59-visual-design.md",
+  "templates/design-system-lite.md",
+  "templates/security-review-lite.md",
+  "templates/ui-ux-review-lite.md",
   "scripts/apply-to-project.ps1",
   "scripts/audit-harness.ps1",
+  "scripts/check-consistency.ps1",
   "scripts/install-skill.ps1",
   "scripts/snapshot.ps1"
 )

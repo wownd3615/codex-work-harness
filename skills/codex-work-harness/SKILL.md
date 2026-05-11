@@ -1,6 +1,6 @@
 ﻿---
 name: codex-work-harness
-description: Apply the user's personal Codex work harness for project planning, outsourcing checks, direct development, CAD LSP/AutoLISP work, minimal code implementation, dead-code cleanup, skill routing, token budgeting, subagent routing, testing, and concise reporting. Use when starting a new project, turning an idea into an app, reviewing outsourced work, modifying CAD LSP scripts, modifying code under the user's rules, or setting up repeatable Codex project workflow.
+description: Apply the user's personal Codex work harness for project planning, outsourcing checks, direct development, code quality, code/design consistency, visual design, security hardening, CAD LSP/AutoLISP work, minimal code implementation, dead-code cleanup, skill routing, token budgeting, subagent routing, testing, and concise reporting. Use when starting a new project, turning an idea into an app, reviewing outsourced work, modifying UI or shared components, improving security, modifying CAD LSP scripts, modifying code under the user's rules, or setting up repeatable Codex project workflow.
 ---
 
 # Codex Work Harness
@@ -12,6 +12,7 @@ Use this skill to run the user's preferred Codex workflow.
 - Never lie. Never claim unperformed work, unread files, or unrun tests.
 - Delete code made unnecessary by the change.
 - Split files by maintainable roles without over-abstracting.
+- Keep code patterns, components, and visual design consistent across the project.
 - Load only the skill and files needed for the task.
 - Separate verified facts, reasonable inference, and uncertainty.
 - Check git status or create a snapshot before deletion or large edits.
@@ -29,10 +30,11 @@ Use this skill to run the user's preferred Codex workflow.
 4. Classify lifecycle: idea, planning, design, build, or review.
 5. Use Planning Cycle for features and major changes; skip it for quick fixes.
 6. Use a Task Card for multi-step work that does not need full planning docs.
-7. Read only the relevant harness reference files.
-8. Use required Codex skills only.
-9. For large parallel work, use subagents with narrow ownership.
-10. Finish with concise report and verification status.
+7. Apply code/design consistency gates for UI, shared code, and repeated patterns.
+8. Read only the relevant harness reference files.
+9. Use required Codex skills only.
+10. For large parallel work, use subagents with narrow ownership.
+11. Finish with concise report and verification status.
 
 ## References
 Read only what is needed:
@@ -47,9 +49,13 @@ Read only what is needed:
 - `references/operational-guardrails.md`: scripts, rules, and hooks as guardrails
 - `references/beginner-explanation.md`: non-technical user explanations
 - `references/code-rules.md`: minimal code, cleanup, file separation
+- `references/code-quality-gates.md`: code quality, refactoring, verification gates
 - `references/comment-rules.md`: when to add or avoid comments
 - `references/safety-backups.md`: git checks and snapshots before risky edits
 - `references/cad-lsp.md`: CAD LSP and AutoLISP safety rules
+- `references/consistency-system.md`: code and design consistency rules
+- `references/security-hardening.md`: security review and hardening checks
+- `references/visual-design.md`: visual polish, design systems, UI/UX checks
 - `references/skill-router.md`: skill selection
 - `references/subagents.md`: subagent roles
 - `references/security-business-ux.md`: security, business, and UX gates

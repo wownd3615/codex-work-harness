@@ -29,6 +29,7 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 |---|---|
 | 프로젝트 시작 전 인터뷰 | `harness/workflow/12-project-intake.md`, `templates/intake-lite.md` |
 | 코드 수정 | `harness/coding/40-code-rules.md`, `harness/core/80-done-checklist.md` |
+| 코드 품질/리팩터링 | `harness/coding/43-code-quality-gates.md`, `templates/code-quality-check-lite.md` |
 | 삭제/대규모 수정 | `harness/coding/45-safety-backups.md` |
 | 여러 단계 작업/이어받기 | `harness/workflow/22-task-card.md`, `templates/task-card-lite.md` |
 | 새 기능/큰 변경 | `harness/workflow/25-planning-cycle.md`, `templates/*-lite.md` 중 필요한 것 |
@@ -36,7 +37,10 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 | 외주 | `harness/workflow/10-work-mode.md`, `harness/workflow/60-product-planning.md` |
 | 팀 프로젝트 | `harness/workflow/10-work-mode.md`, `harness/workflow/85-team-project-setup.md` |
 | 보안/사업성/UI/UX | `harness/domains/55-security-business-ux.md` |
+| 보안 강화 | `harness/domains/56-security-hardening.md`, `templates/security-review-lite.md` |
 | CAD LSP/AutoLISP | `harness/domains/57-cad-lsp.md` |
+| 코드/디자인 통일성 | `harness/domains/58-consistency-system.md`, `templates/design-system-lite.md` |
+| 시각 디자인/화면 완성도 | `harness/domains/59-visual-design.md`, `templates/ui-ux-review-lite.md` |
 | 비전공자 설명 필요 | `harness/core/38-beginner-explanation.md` |
 | 주석 기준 필요 | `harness/coding/42-comment-rules.md` |
 | 새 프로젝트 시작 | `harness/workflow/15-project-level.md`, `harness/workflow/65-development-pipeline.md` |
@@ -47,4 +51,5 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 
 ## 토큰 절약
 상세 문서는 필요할 때만 연다. 모든 문서를 한 번에 읽지 않는다. 작은 작업은 `AGENTS.md`와 필요한 작업 문서 1-2개만으로 처리한다.
+
 

@@ -25,8 +25,16 @@ $required = @(
   "harness/00-start-here.md",
   "harness/workflow/22-task-card.md",
   "harness/core/73-operational-guardrails.md",
+  "harness/coding/43-code-quality-gates.md",
+  "harness/domains/56-security-hardening.md",
+  "harness/domains/58-consistency-system.md",
+  "harness/domains/59-visual-design.md",
+  "templates/design-system-lite.md",
   "templates/task-card-lite.md",
+  "templates/security-review-lite.md",
+  "templates/ui-ux-review-lite.md",
   "scripts/check-harness.ps1",
+  "scripts/check-consistency.ps1",
   "scripts/apply-to-project.ps1",
   "scripts/install-skill.ps1",
   "scripts/snapshot.ps1"
@@ -45,7 +53,7 @@ if ($startText -match "22-task-card" -and $startText -match "AGENTS.md") { Add-S
 $skillPath = Join-Path $rootPath "skills/codex-work-harness/SKILL.md"
 if (Test-Path $skillPath) {
   $skillText = Get-Content -Raw $skillPath
-  if ($skillText -match "task-card.md" -and $skillText -match "operational-guardrails.md") {
+  if ($skillText -match "task-card.md" -and $skillText -match "operational-guardrails.md" -and $skillText -match "consistency-system.md" -and $skillText -match "security-hardening.md" -and $skillText -match "visual-design.md") {
     Add-Score 10 "skill references new workflow layers"
   } else {
     Add-Miss "skill references are incomplete"
@@ -60,10 +68,10 @@ if ((Test-File "harness/coding/45-safety-backups.md") -and (Test-File "examples/
   Add-Miss "backup docs or optional safety rule examples missing"
 }
 
-if ((Test-File "harness/domains/55-security-business-ux.md") -and (Test-File "harness/workflow/12-project-intake.md")) {
-  Add-Score 10 "security, business, UX, and intake gates exist"
+if ((Test-File "harness/domains/55-security-business-ux.md") -and (Test-File "harness/domains/56-security-hardening.md") -and (Test-File "harness/domains/58-consistency-system.md") -and (Test-File "harness/domains/59-visual-design.md") -and (Test-File "harness/workflow/12-project-intake.md")) {
+  Add-Score 10 "security, business, UX, consistency, and intake gates exist"
 } else {
-  Add-Miss "security/business/UX or intake gate missing"
+  Add-Miss "security/business/UX/consistency or intake gate missing"
 }
 
 if (Test-File "harness/domains/57-cad-lsp.md") { Add-Score 10 "CAD LSP domain rules exist" } else { Add-Miss "CAD LSP rules missing" }
