@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$Root = "."
 )
 
@@ -28,3 +28,4 @@ Get-ChildItem -LiteralPath $rootPath -Force | Where-Object {
 }
 
 Write-Output "Snapshot created: $target"
+

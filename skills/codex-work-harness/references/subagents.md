@@ -1,4 +1,4 @@
-# Subagents
+﻿# Subagents
 
 Use subagents only for large work with clear parallel benefit.
 
@@ -16,6 +16,7 @@ Conditional specialists:
 - Frontend Specialist: large UI/component work.
 - Backend Specialist: API, DB, auth, storage.
 - Security Specialist: login, payment, personal data, permissions, file upload, external API keys, deployment.
-- Lead Coordinator: Dynamic/Enterprise major features.
+- Lead Coordinator: Connected/Scale major features.
 
 Give each agent a narrow scope. Do not let multiple agents edit the same files. Main Codex integrates and verifies.
+

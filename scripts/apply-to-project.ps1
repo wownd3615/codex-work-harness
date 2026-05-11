@@ -1,4 +1,4 @@
-param(
+﻿param(
   [Parameter(Mandatory = $true)]
   [string]$ProjectPath,
 
@@ -37,3 +37,4 @@ if ($IncludeSkill) {
 }
 
 Write-Output "Codex Work Harness applied to: $targetRoot"
+

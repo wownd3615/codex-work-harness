@@ -1,4 +1,4 @@
-# {feature} Report
+﻿# {feature} Report
 
 ## Done
 - {완료한 것}
@@ -14,3 +14,4 @@
 
 ## Remaining
 - {남은 위험/다음 작업}
+

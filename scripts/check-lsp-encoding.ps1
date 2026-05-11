@@ -1,4 +1,4 @@
-param(
+﻿param(
   [Parameter(Mandatory = $true)]
   [string]$Path
 )
@@ -37,3 +37,4 @@ if ($hasHighBytes -ne $null) {
 if ($encoding -like "UTF-8*") {
   Write-Output "Warning: Some CAD LSP loaders may fail or break Korean text with UTF-8. Confirm target CAD encoding."
 }
+

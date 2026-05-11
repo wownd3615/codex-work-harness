@@ -1,4 +1,4 @@
-# Project Intake
+﻿# Project Intake
 
 ## Goal
 {무엇을 만들 것인가}
@@ -32,3 +32,4 @@
 
 ## Risks
 - {보안/데이터/일정/운영 위험}
+

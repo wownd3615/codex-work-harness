@@ -1,4 +1,4 @@
-# Codex Work Harness
+﻿# Codex Work Harness
 
 이 프로젝트는 Codex Work Harness 규칙을 따른다.
 
@@ -23,8 +23,9 @@
 ## 큰 작업
 큰 작업에서는 필요한 경우에만 서브에이전트를 사용한다. 서브에이전트는 `harness/workflow/50-subagents.md` 규칙을 따른다.
 
-## PDCA
-새 기능이나 큰 변경은 `harness/workflow/25-pdca.md` 흐름을 따른다. 작은 수정은 바로 처리한다.
+## Planning Cycle
+새 기능이나 큰 변경은 `harness/workflow/25-planning-cycle.md` 흐름을 따른다. 작은 수정은 바로 처리한다.
 
 ## Hook 대체 규칙
 Codex에서는 `harness/workflow/75-session-hooks.md`를 사용해 자동 hook 역할을 대체한다. 작업 시작, 편집 전, 편집 후, 최종 보고 전에 해당 규칙을 필요한 만큼 적용한다.
+

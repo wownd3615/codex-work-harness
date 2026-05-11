@@ -1,11 +1,11 @@
-# {feature} Plan
+﻿# {feature} Plan
 
 ## Goal
 {한 문장 목표}
 
 ## Mode
 - Work mode: Direct / Outsource
-- Level: Starter / Dynamic / Enterprise
+- Level: Simple / Connected / Scale
 
 ## MVP
 - {핵심 기능 1}
@@ -20,3 +20,4 @@
 
 ## Risks
 - {위험과 대응}
+

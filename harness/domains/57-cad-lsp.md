@@ -1,4 +1,4 @@
-# CAD LSP Rules
+﻿# CAD LSP Rules
 
 AutoCAD/BricsCAD/ZWCAD 등 CAD용 LSP/AutoLISP 작업에 적용한다.
 
@@ -67,3 +67,4 @@ Codex가 CAD를 직접 실행할 수 없으면 정적 검토만 했다고 보고
 - 안전장치
 - 실제 CAD 실행 여부
 - 실행하지 못했다면 사용자가 CAD에서 테스트할 최소 절차
+

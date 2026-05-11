@@ -1,4 +1,4 @@
-# Fact-Based Reasoning
+﻿# Fact-Based Reasoning
 
 Do not answer with unsupported optimism.
 
@@ -13,3 +13,4 @@ Use current official sources for changing facts such as pricing, policy, legal r
 Never claim a test, file inspection, or verification was done if it was not done.
 
 For business judgments, evaluate target customer, pain strength, cost, competition, distribution, and execution risk. Mention risks and failure modes.
+

@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$Root = "."
 )
 
@@ -12,6 +12,7 @@ $required = @(
   "harness/core/38-beginner-explanation.md",
   "harness/core/80-done-checklist.md",
   "harness/workflow/12-project-intake.md",
+  "harness/workflow/25-planning-cycle.md",
   "harness/coding/40-code-rules.md",
   "harness/coding/42-comment-rules.md",
   "harness/coding/45-safety-backups.md",
@@ -33,11 +34,12 @@ if ($missing.Count -gt 0) {
   exit 1
 }
 
-$status = Join-Path $rootPath "docs/.pdca-status.json"
+$status = Join-Path $rootPath "docs/.work-status.json"
 if (!(Test-Path $status)) {
-  Write-Output "PDCA status file not found. This is OK for quick fixes."
+  Write-Output "Work status file not found. This is OK for quick fixes."
 } else {
-  Write-Output "PDCA status file found."
+  Write-Output "Work status file found."
 }
 
 Write-Output "Harness OK: $rootPath"
+

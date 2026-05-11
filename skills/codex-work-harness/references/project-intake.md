@@ -1,4 +1,4 @@
-# Project Intake
+﻿# Project Intake
 
 Before starting a new project, ask only the information needed to avoid rework.
 
@@ -18,3 +18,4 @@ Classify features as:
 - Won't: explicitly out of scope.
 
 Do not repeat information the user already gave. For simple projects, reduce the interview to 1-3 questions. Confirm risky assumptions before coding.
+

@@ -1,4 +1,4 @@
-# Code Rules
+﻿# Code Rules
 
 Write the shortest simple code that satisfies the request.
 
@@ -9,3 +9,4 @@ After changes, remove obsolete code, unused imports, unused variables, unused fu
 Before deletion, check references with `rg`. If unsure, report a deletion candidate instead of deleting.
 
 Separate files by role when it improves maintenance now. Extract shared functions/components only after a second use or clear immediate reuse. Do not split short one-off code just to look structured.
+

@@ -1,4 +1,4 @@
-# Security, Business, UX Gates
+﻿# Security, Business, UX Gates
 
 Security gate is required when work touches login, payment, personal data, permissions, file upload, external API keys, deployment, or environment variables.
 
@@ -13,3 +13,4 @@ UX gate is required for user-facing screens.
 Check: clear next action, short core flow, empty/loading/error states, mobile fit, readable repeated-work/admin screens.
 
 Security risk outranks feature completeness. Business and UX review should reduce scope, not add nice-to-have features.
+

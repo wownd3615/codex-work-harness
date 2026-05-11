@@ -1,4 +1,4 @@
-# CAD LSP
+﻿# CAD LSP
 
 Use for `.lsp`, `.dcl`, AutoLISP, AutoCAD, BricsCAD, or ZWCAD script work.
 
@@ -17,3 +17,4 @@ Rules:
 - Do not claim CAD runtime verification unless actually run in CAD.
 
 Report command names, drawing-changing behavior, encoding status, safety guards, and whether CAD was actually run. If not run, provide a short manual test procedure.
+

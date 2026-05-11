@@ -1,4 +1,4 @@
-# Codex Work Harness
+﻿# Codex Work Harness
 
 Codex Work Harness는 **Codex가 프로젝트를 시작하고 수정할 때 지켜야 할 작업 규칙 모음**입니다.
 
@@ -43,7 +43,7 @@ skills/codex-work-harness/
 | `AGENTS.md` | Codex가 항상 먼저 보는 최상위 규칙 |
 | `harness/00-start-here.md` | 필요한 규칙만 고르는 라우터 |
 | `harness/core/` | 진실성, 팩트, 토큰 절약, 완료 보고 |
-| `harness/workflow/` | 프로젝트 단계, 외주/팀, PDCA, 서브에이전트 |
+| `harness/workflow/` | 프로젝트 단계, 외주/팀, Planning Cycle, 서브에이전트 |
 | `harness/coding/` | 코드 작성, 주석, 백업 규칙 |
 | `harness/domains/` | 보안/사업성/UI/UX, CAD LSP |
 | `templates/` | 짧은 계획/설계/검토/보고 템플릿 |
@@ -123,3 +123,4 @@ powershell -ExecutionPolicy Bypass -File scripts/install-skill.ps1 -Root .
 
 이 하네스는 개인 작업 방식을 정리한 것입니다. 모든 프로젝트에 정답은 아닙니다.
 팀 프로젝트에서는 팀 규칙, 보안 정책, 회사 규정을 우선합니다.
+

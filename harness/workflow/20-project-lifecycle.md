@@ -1,4 +1,4 @@
-# Project Lifecycle
+﻿# Project Lifecycle
 
 현재 작업 단계를 먼저 분류한다.
 
@@ -46,3 +46,4 @@
 - 쓰레기 코드
 - 테스트 누락
 - 외주 납품 기준 충족 여부
+

@@ -1,4 +1,4 @@
-# {feature} Check
+﻿# {feature} Check
 
 ## Match
 - 요구사항 충족: {Yes/Partial/No}
@@ -15,3 +15,4 @@
 
 ## Gaps
 - {남은 차이}
+

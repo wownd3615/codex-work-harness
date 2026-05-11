@@ -1,4 +1,4 @@
-# {feature} Design
+﻿# {feature} Design
 
 ## Flow
 {사용자 흐름}
@@ -20,3 +20,4 @@
 
 ## Verification
 - {테스트/실행 확인 방법}
+

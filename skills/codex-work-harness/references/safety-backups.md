@@ -1,4 +1,4 @@
-# Safety Backups
+﻿# Safety Backups
 
 Before deletion, moves, mass formatting, config changes, dependency changes, generated-code overwrite, or large edits:
 
@@ -8,3 +8,4 @@ Before deletion, moves, mass formatting, config changes, dependency changes, gen
 4. Report snapshot path if created.
 
 Never run destructive git commands such as `git reset --hard` or force push without explicit user approval.
+

@@ -1,4 +1,4 @@
-# Safety Backups
+﻿# Safety Backups
 
 파일이 날아가거나 잘못 수정될 때를 대비해 되돌릴 수 있는 상태를 만든다.
 
@@ -44,3 +44,4 @@ powershell -ExecutionPolicy Bypass -File scripts/snapshot.ps1 -Root .
 
 ## 보고
 백업을 만들었으면 경로를 보고한다. 백업하지 않았다면 이유를 말한다.
+

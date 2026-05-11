@@ -1,4 +1,4 @@
-# Team Project Setup
+﻿# Team Project Setup
 
 팀 단위 프로젝트에서는 개인 하네스를 그대로 쓰지 않는다. 팀 합의, 저장소 규칙, 리뷰 흐름을 함께 세팅한다.
 
@@ -42,7 +42,7 @@ docs/
 
 ## 팀용 시작 절차
 1. `AGENTS.md`와 하네스 적용 여부 합의
-2. 프로젝트 레벨 판단: Starter/Dynamic/Enterprise
+2. 프로젝트 레벨 판단: Simple/Connected/Scale
 3. 외주/내부개발/혼합 개발 여부 판단
 4. MVP와 제외 범위 합의
 5. 보안/사업성/UI/UX 게이트 적용 기준 합의
@@ -57,3 +57,4 @@ docs/
 - 보안/개인정보 위험이 없는가
 - UI/UX 상태가 깨지지 않는가
 - 불확실한 점이 PR 설명에 적혀 있는가
+

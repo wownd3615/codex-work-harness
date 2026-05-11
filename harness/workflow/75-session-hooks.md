@@ -1,4 +1,4 @@
-# Codex Hook Substitute
+﻿# Codex Hook Substitute
 
 일부 코딩 도구는 hooks로 자동 개입한다. Codex에서는 아래 체크를 대체 규칙으로 사용한다.
 
@@ -22,10 +22,11 @@
 - 대체되어 필요 없어진 코드 삭제
 - 필요한 테스트 실행
 - 짧은 완료 보고
-- PDCA 작업이면 `docs/.pdca-status.json` 갱신
+- Planning Cycle 작업이면 `docs/.work-status.json` 갱신
 - 만든 스냅샷이 있으면 경로 보고
 
 ## Before Final
 - `core/80-done-checklist.md` 확인
 - 검증하지 못한 항목 보고
 - 변경 파일과 삭제한 불필요 코드를 보고
+

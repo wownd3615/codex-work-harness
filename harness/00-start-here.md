@@ -1,4 +1,4 @@
-# Start Here
+﻿# Start Here
 
 Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작하고 끝내게 하는 작업 규칙이다.
 
@@ -30,7 +30,7 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 | 프로젝트 시작 전 인터뷰 | `workflow/12-project-intake.md`, `templates/intake-lite.md` |
 | 코드 수정 | `coding/40-code-rules.md`, `core/80-done-checklist.md` |
 | 삭제/대규모 수정 | `coding/45-safety-backups.md` |
-| 새 기능/큰 변경 | `workflow/25-pdca.md`, `templates/*-lite.md` 중 필요한 것 |
+| 새 기능/큰 변경 | `workflow/25-planning-cycle.md`, `templates/*-lite.md` 중 필요한 것 |
 | 아이디어/기획 | `workflow/20-project-lifecycle.md`, `workflow/60-product-planning.md` |
 | 외주 | `workflow/10-work-mode.md`, `workflow/60-product-planning.md` |
 | 팀 프로젝트 | `workflow/10-work-mode.md`, `workflow/85-team-project-setup.md` |
@@ -45,3 +45,4 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 
 ## 토큰 절약
 상세 문서는 필요할 때만 연다. 모든 문서를 한 번에 읽지 않는다. 작은 작업은 `AGENTS.md`와 필요한 작업 문서 1-2개만으로 처리한다.
+

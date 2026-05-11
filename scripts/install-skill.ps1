@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$Root = "."
 )
 
@@ -20,3 +20,4 @@ if (Test-Path $target) {
 
 Copy-Item -Recurse -LiteralPath $source -Destination $target
 Write-Output "Installed: $target"
+

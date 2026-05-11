@@ -1,4 +1,4 @@
-# Done Checklist
+﻿# Done Checklist
 
 Before completion, check:
 - Request is satisfied.
@@ -10,3 +10,4 @@ Before completion, check:
 - Existing style is followed.
 - Tests or practical verification were run when feasible.
 - If verification was not possible, report why.
+

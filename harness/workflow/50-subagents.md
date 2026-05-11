@@ -1,4 +1,4 @@
-# Subagents
+﻿# Subagents
 
 서브에이전트는 큰 작업에서만 사용한다. 작은 수정에는 사용하지 않는다.
 
@@ -66,7 +66,7 @@
 - 필수 검토: client에 secret 노출 금지, 서버 입력 검증, 권한 체크, 민감정보 저장 위치, 에러 메시지 노출
 
 ### Lead Coordinator
-- 조건: Dynamic/Enterprise의 Major Feature일 때
+- 조건: Connected/Scale의 Major Feature일 때
 - 역할: 작업 분할, 에이전트 범위 지정, 충돌 방지
 - 수정 권한: 없음. 메인 Codex가 최종 결정한다.
 
@@ -90,3 +90,4 @@
 - 삭제한 불필요 코드
 - 검증
 - 남은 위험
+

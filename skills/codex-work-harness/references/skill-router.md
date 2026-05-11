@@ -1,4 +1,4 @@
-# Skill Router
+﻿# Skill Router
 
 Use only necessary skills.
 
@@ -12,3 +12,4 @@ Use only necessary skills.
 - Spreadsheet/CSV: `spreadsheets:Spreadsheets`
 
 Read the skill body first. Load extra references only when required.
+
