@@ -24,17 +24,19 @@ Use this skill to run the user's preferred Codex workflow.
 
 ## Workflow
 1. Classify work mode: direct development, outsourced project, or unknown.
-2. Classify project level: Starter, Dynamic, or Enterprise.
-3. Classify lifecycle: idea, planning, design, build, or review.
-4. Use PDCA for features and major changes; skip it for quick fixes.
-5. Read only the relevant harness reference files.
-6. Use required Codex skills only.
-7. For large parallel work, use subagents with narrow ownership.
-8. Finish with concise report and verification status.
+2. For new projects, run a short intake interview before planning or coding.
+3. Classify project level: Starter, Dynamic, or Enterprise.
+4. Classify lifecycle: idea, planning, design, build, or review.
+5. Use PDCA for features and major changes; skip it for quick fixes.
+6. Read only the relevant harness reference files.
+7. Use required Codex skills only.
+8. For large parallel work, use subagents with narrow ownership.
+9. Finish with concise report and verification status.
 
 ## References
 Read only what is needed:
 - `references/work-mode.md`: direct vs outsourced work
+- `references/project-intake.md`: project-start interview
 - `references/truthfulness.md`: no lying, verification honesty
 - `references/project-level.md`: Starter/Dynamic/Enterprise routing
 - `references/project-lifecycle.md`: idea to review workflow

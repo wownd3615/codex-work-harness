@@ -11,6 +11,7 @@ $required = @(
   "harness/core/05-truthfulness.md",
   "harness/core/38-beginner-explanation.md",
   "harness/core/80-done-checklist.md",
+  "harness/workflow/12-project-intake.md",
   "harness/coding/40-code-rules.md",
   "harness/coding/42-comment-rules.md",
   "harness/coding/45-safety-backups.md",

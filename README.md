@@ -68,6 +68,7 @@ skills/codex-work-harness/
 | 상황 | 볼 문서 |
 |---|---|
 | 처음 시작 | `AGENTS.md`, `harness/00-start-here.md` |
+| 프로젝트 시작 전 인터뷰 | `harness/workflow/12-project-intake.md` |
 | 코드 수정 | `harness/coding/40-code-rules.md` |
 | 큰 삭제/수정 | `harness/coding/45-safety-backups.md` |
 | 보안/사업성/UI/UX | `harness/domains/55-security-business-ux.md` |

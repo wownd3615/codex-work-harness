@@ -14,10 +14,11 @@
 
 ## 작업 시작 순서
 1. `harness/00-start-here.md`에서 필요한 문서만 고른다.
-2. 관련 파일만 최소로 읽는다.
-3. 위험한 수정이면 `harness/coding/45-safety-backups.md`에 따라 보험을 든다.
-4. 최소 코드로 작업하고 불필요 코드를 정리한다.
-5. 검증 후 짧게 보고한다.
+2. 새 프로젝트라면 `harness/workflow/12-project-intake.md`에 따라 필요한 정보를 먼저 확인한다.
+3. 관련 파일만 최소로 읽는다.
+4. 위험한 수정이면 `harness/coding/45-safety-backups.md`에 따라 보험을 든다.
+5. 최소 코드로 작업하고 불필요 코드를 정리한다.
+6. 검증 후 짧게 보고한다.
 
 ## 큰 작업
 큰 작업에서는 필요한 경우에만 서브에이전트를 사용한다. 서브에이전트는 `harness/workflow/50-subagents.md` 규칙을 따른다.

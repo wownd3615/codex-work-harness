@@ -27,6 +27,7 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 
 | 상황 | 추가로 읽을 문서 |
 |---|---|
+| 프로젝트 시작 전 인터뷰 | `workflow/12-project-intake.md`, `templates/intake-lite.md` |
 | 코드 수정 | `coding/40-code-rules.md`, `core/80-done-checklist.md` |
 | 삭제/대규모 수정 | `coding/45-safety-backups.md` |
 | 새 기능/큰 변경 | `workflow/25-pdca.md`, `templates/*-lite.md` 중 필요한 것 |
