@@ -27,21 +27,21 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 
 | 상황 | 추가로 읽을 문서 |
 |---|---|
-| 프로젝트 시작 전 인터뷰 | `workflow/12-project-intake.md`, `templates/intake-lite.md` |
-| 코드 수정 | `coding/40-code-rules.md`, `core/80-done-checklist.md` |
-| 삭제/대규모 수정 | `coding/45-safety-backups.md` |
-| 새 기능/큰 변경 | `workflow/25-planning-cycle.md`, `templates/*-lite.md` 중 필요한 것 |
-| 아이디어/기획 | `workflow/20-project-lifecycle.md`, `workflow/60-product-planning.md` |
-| 외주 | `workflow/10-work-mode.md`, `workflow/60-product-planning.md` |
-| 팀 프로젝트 | `workflow/10-work-mode.md`, `workflow/85-team-project-setup.md` |
-| 보안/사업성/UI/UX | `domains/55-security-business-ux.md` |
-| CAD LSP/AutoLISP | `domains/57-cad-lsp.md` |
-| 비전공자 설명 필요 | `core/38-beginner-explanation.md` |
-| 주석 기준 필요 | `coding/42-comment-rules.md` |
-| 새 프로젝트 시작 | `workflow/15-project-level.md`, `workflow/65-development-pipeline.md` |
-| 서브에이전트 필요 | `workflow/50-subagents.md` |
-| skill 선택 | `workflow/30-skill-router.md` |
-| 보고 형식 필요 | `core/90-report-format.md` |
+| 프로젝트 시작 전 인터뷰 | `harness/workflow/12-project-intake.md`, `templates/intake-lite.md` |
+| 코드 수정 | `harness/coding/40-code-rules.md`, `harness/core/80-done-checklist.md` |
+| 삭제/대규모 수정 | `harness/coding/45-safety-backups.md` |
+| 새 기능/큰 변경 | `harness/workflow/25-planning-cycle.md`, `templates/*-lite.md` 중 필요한 것 |
+| 아이디어/기획 | `harness/workflow/20-project-lifecycle.md`, `harness/workflow/60-product-planning.md` |
+| 외주 | `harness/workflow/10-work-mode.md`, `harness/workflow/60-product-planning.md` |
+| 팀 프로젝트 | `harness/workflow/10-work-mode.md`, `harness/workflow/85-team-project-setup.md` |
+| 보안/사업성/UI/UX | `harness/domains/55-security-business-ux.md` |
+| CAD LSP/AutoLISP | `harness/domains/57-cad-lsp.md` |
+| 비전공자 설명 필요 | `harness/core/38-beginner-explanation.md` |
+| 주석 기준 필요 | `harness/coding/42-comment-rules.md` |
+| 새 프로젝트 시작 | `harness/workflow/15-project-level.md`, `harness/workflow/65-development-pipeline.md` |
+| 서브에이전트 필요 | `harness/workflow/50-subagents.md` |
+| skill 선택 | `harness/workflow/30-skill-router.md` |
+| 보고 형식 필요 | `harness/core/90-report-format.md` |
 
 ## 토큰 절약
 상세 문서는 필요할 때만 연다. 모든 문서를 한 번에 읽지 않는다. 작은 작업은 `AGENTS.md`와 필요한 작업 문서 1-2개만으로 처리한다.
