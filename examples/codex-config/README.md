@@ -1,4 +1,4 @@
-# Codex Config Examples
+﻿# Codex Config Examples
 
 이 폴더는 예시다. 자동 적용되지 않는다.
 
@@ -15,3 +15,4 @@ Copy-Item -Recurse examples/codex-config/.codex .codex
 - Codex가 프로젝트 `.codex/` 설정을 신뢰하도록 되어 있는가
 
 예시는 보수적으로 시작한다. 프로젝트에 맞게 줄여서 쓴다.
+
