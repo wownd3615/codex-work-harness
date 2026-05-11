@@ -25,10 +25,12 @@ $required = @(
   "harness/domains/59-visual-design.md",
   "templates/design-system-lite.md",
   "templates/security-review-lite.md",
+  "templates/threat-model-lite.md",
   "templates/ui-ux-review-lite.md",
   "scripts/apply-to-project.ps1",
   "scripts/audit-harness.ps1",
   "scripts/check-consistency.ps1",
+  "scripts/check-security.ps1",
   "scripts/install-skill.ps1",
   "scripts/snapshot.ps1"
 )

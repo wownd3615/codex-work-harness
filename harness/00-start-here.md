@@ -37,7 +37,7 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 | 외주 | `harness/workflow/10-work-mode.md`, `harness/workflow/60-product-planning.md` |
 | 팀 프로젝트 | `harness/workflow/10-work-mode.md`, `harness/workflow/85-team-project-setup.md` |
 | 보안/사업성/UI/UX | `harness/domains/55-security-business-ux.md` |
-| 보안 강화 | `harness/domains/56-security-hardening.md`, `templates/security-review-lite.md` |
+| 보안 강화 | `harness/domains/56-security-hardening.md`, `templates/threat-model-lite.md`, `templates/security-review-lite.md` |
 | CAD LSP/AutoLISP | `harness/domains/57-cad-lsp.md` |
 | 코드/디자인 통일성 | `harness/domains/58-consistency-system.md`, `templates/design-system-lite.md` |
 | 시각 디자인/화면 완성도 | `harness/domains/59-visual-design.md`, `templates/ui-ux-review-lite.md` |
@@ -51,5 +51,6 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 
 ## 토큰 절약
 상세 문서는 필요할 때만 연다. 모든 문서를 한 번에 읽지 않는다. 작은 작업은 `AGENTS.md`와 필요한 작업 문서 1-2개만으로 처리한다.
+
 
 

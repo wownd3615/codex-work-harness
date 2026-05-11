@@ -78,7 +78,7 @@ skills/codex-work-harness/
 | 코드 품질/리팩터링 | `harness/coding/43-code-quality-gates.md` |
 | 큰 삭제/수정 | `harness/coding/45-safety-backups.md` |
 | 보안/사업성/UI/UX | `harness/domains/55-security-business-ux.md` |
-| 보안 강화 | `harness/domains/56-security-hardening.md` |
+| 보안 강화 | `harness/domains/56-security-hardening.md`, `scripts/check-security.ps1` |
 | 코드/디자인 통일성 | `harness/domains/58-consistency-system.md` |
 | 시각 디자인/화면 완성도 | `harness/domains/59-visual-design.md` |
 | CAD LSP/AutoLISP | `harness/domains/57-cad-lsp.md` |
@@ -105,6 +105,14 @@ powershell -ExecutionPolicy Bypass -File scripts/install-skill.ps1 -Root .
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/audit-harness.ps1 -Root .
 ```
+
+보안 관련 작업에서는 아래 기본 스캔도 실행할 수 있습니다.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/check-security.ps1 -Root .
+```
+
+이 스캔은 보조 장치입니다. 결제, 고객 개인정보, 공개 서비스, 자동 삭제/전송 같은 고위험 작업은 바이브코딩만으로 안전하다고 판단하지 않고 별도 검토가 필요합니다.
 
 ## 새 프로젝트에 적용
 
@@ -141,5 +149,7 @@ powershell -ExecutionPolicy Bypass -File scripts/install-skill.ps1 -Root .
 
 이 하네스는 개인 작업 방식을 정리한 것입니다. 모든 프로젝트에 정답은 아닙니다.
 팀 프로젝트에서는 팀 규칙, 보안 정책, 회사 규정을 우선합니다.
+
+
 
 

@@ -32,9 +32,11 @@ $required = @(
   "templates/design-system-lite.md",
   "templates/task-card-lite.md",
   "templates/security-review-lite.md",
+  "templates/threat-model-lite.md",
   "templates/ui-ux-review-lite.md",
   "scripts/check-harness.ps1",
   "scripts/check-consistency.ps1",
+  "scripts/check-security.ps1",
   "scripts/apply-to-project.ps1",
   "scripts/install-skill.ps1",
   "scripts/snapshot.ps1"
@@ -62,8 +64,8 @@ if (Test-Path $skillPath) {
   Add-Score 10 "local skill source is optional in applied projects"
 }
 
-if ((Test-File "harness/coding/45-safety-backups.md") -and (Test-File "examples/codex-config/.codex/rules/safety.rules")) {
-  Add-Score 15 "backup docs and optional safety rules exist"
+if ((Test-File "harness/coding/45-safety-backups.md") -and (Test-File "examples/codex-config/.codex/rules/safety.rules") -and (Test-File "scripts/check-security.ps1")) {
+  Add-Score 15 "backup docs, security scan, and optional safety rules exist"
 } else {
   Add-Miss "backup docs or optional safety rule examples missing"
 }
