@@ -16,6 +16,8 @@ Use this skill to run the user's preferred Codex workflow.
 - Separate verified facts, reasonable inference, and uncertainty.
 - Check git status or create a snapshot before deletion or large edits.
 - Apply CAD LSP safety rules for `.lsp`, `.dcl`, AutoLISP, AutoCAD, BricsCAD, or ZWCAD scripts.
+- Explain work in beginner-friendly language when the user is non-technical.
+- Add comments only when they explain non-obvious intent, risk, or domain rules.
 - Prefer existing project style.
 - Verify before reporting when feasible.
 - Report briefly.
@@ -38,7 +40,9 @@ Read only what is needed:
 - `references/project-lifecycle.md`: idea to review workflow
 - `references/pdca.md`: Plan-Design-Do-Check-Act workflow
 - `references/fact-based-reasoning.md`: fact, inference, uncertainty rules
+- `references/beginner-explanation.md`: non-technical user explanations
 - `references/code-rules.md`: minimal code, cleanup, file separation
+- `references/comment-rules.md`: when to add or avoid comments
 - `references/safety-backups.md`: git checks and snapshots before risky edits
 - `references/cad-lsp.md`: CAD LSP and AutoLISP safety rules
 - `references/skill-router.md`: skill selection

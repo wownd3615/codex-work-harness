@@ -11,7 +11,7 @@
 - 문서 `.docx`: `documents:documents`
 - 발표자료 `.pptx`: `presentations:Presentations`
 - 엑셀/CSV: `spreadsheets:Spreadsheets`
-- CAD LSP/AutoLISP: 전용 내장 skill은 없으므로 `harness/57-cad-lsp.md`를 적용한다.
+- CAD LSP/AutoLISP: 전용 내장 skill은 없으므로 `harness/domains/57-cad-lsp.md`를 적용한다.
 
 ## 사용 규칙
 - 관련 없는 skill은 읽지 않는다.

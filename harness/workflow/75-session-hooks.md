@@ -15,7 +15,7 @@
 - 삭제될 코드 후보 확인
 - 새 파일/새 라이브러리가 꼭 필요한지 판단
 - Feature/Major Feature면 Plan/Design 문서 존재 여부 확인
-- 삭제/대규모 수정이면 `45-safety-backups.md`에 따라 git 상태 또는 스냅샷 확인
+- 삭제/대규모 수정이면 `coding/45-safety-backups.md`에 따라 git 상태 또는 스냅샷 확인
 
 ## After Edit
 - unused import/변수/함수 확인
@@ -26,6 +26,6 @@
 - 만든 스냅샷이 있으면 경로 보고
 
 ## Before Final
-- `80-done-checklist.md` 확인
+- `core/80-done-checklist.md` 확인
 - 검증하지 못한 항목 보고
 - 변경 파일과 삭제한 불필요 코드를 보고
