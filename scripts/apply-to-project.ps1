@@ -11,7 +11,7 @@ $ErrorActionPreference = "Stop"
 $sourceRoot = (Resolve-Path $HarnessRoot).Path
 $targetRoot = (Resolve-Path $ProjectPath).Path
 
-$items = @("AGENTS.md", "harness", "templates", "scripts")
+$items = @("AGENTS.md", "harness", "templates", "scripts", "examples")
 
 foreach ($item in $items) {
   $source = Join-Path $sourceRoot $item

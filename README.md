@@ -48,6 +48,8 @@ skills/codex-work-harness/
 | `harness/domains/` | 보안/사업성/UI/UX, CAD LSP |
 | `templates/` | 짧은 계획/설계/검토/보고 템플릿 |
 | `scripts/` | 설치, 적용, 백업, 점검 스크립트 |
+| `examples/` | 선택 적용용 Codex 설정 예시 |
+| `docs/research/` | 하네스 연구 기록. 기본 작업 때는 읽지 않음 |
 | `skills/codex-work-harness/` | Codex skill로 설치할 수 있는 버전 |
 
 ## 핵심 규칙
@@ -74,6 +76,7 @@ skills/codex-work-harness/
 | 보안/사업성/UI/UX | `harness/domains/55-security-business-ux.md` |
 | CAD LSP/AutoLISP | `harness/domains/57-cad-lsp.md` |
 | 팀 프로젝트 | `harness/workflow/85-team-project-setup.md` |
+| 여러 단계 작업/이어받기 | `harness/workflow/22-task-card.md` |
 | 비전공자 설명 | `harness/core/38-beginner-explanation.md` |
 | 주석 기준 | `harness/coding/42-comment-rules.md` |
 | 완료 전 점검 | `harness/core/80-done-checklist.md` |
@@ -86,6 +89,14 @@ Codex가 이 하네스를 skill로 발견하게 하려면 실행합니다.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File scripts/install-skill.ps1 -Root .
+```
+
+## 점검
+
+하네스 자체 상태를 점수로 확인하려면 실행합니다.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/audit-harness.ps1 -Root .
 ```
 
 ## 새 프로젝트에 적용

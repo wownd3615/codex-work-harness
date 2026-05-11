@@ -18,12 +18,13 @@
 ## 템플릿
 기본은 짧은 템플릿을 사용한다.
 
+- Task Card: `templates/task-card-lite.md`
 - Plan: `templates/plan-lite.md`
 - Design: `templates/design-lite.md`
 - Check: `templates/check-lite.md`
 - Report: `templates/report-lite.md`
 
-Scale이거나 외주 검수 문서가 필요할 때만 상세 문서로 확장한다.
+Feature는 Task Card 하나로 시작해도 된다. Scale이거나 외주 검수 문서가 필요할 때만 Plan/Design/Check/Report로 확장한다.
 
 상태 파일이 필요하면 `templates/work-status.template.json`을 복사해서 시작한다.
 

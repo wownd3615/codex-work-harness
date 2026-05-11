@@ -1,0 +1,8 @@
+# Example only. Copy into a project after review.
+
+[features]
+codex_hooks = false
+
+[agents]
+max_threads = 3
+max_depth = 1

@@ -30,6 +30,7 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 | 프로젝트 시작 전 인터뷰 | `harness/workflow/12-project-intake.md`, `templates/intake-lite.md` |
 | 코드 수정 | `harness/coding/40-code-rules.md`, `harness/core/80-done-checklist.md` |
 | 삭제/대규모 수정 | `harness/coding/45-safety-backups.md` |
+| 여러 단계 작업/이어받기 | `harness/workflow/22-task-card.md`, `templates/task-card-lite.md` |
 | 새 기능/큰 변경 | `harness/workflow/25-planning-cycle.md`, `templates/*-lite.md` 중 필요한 것 |
 | 아이디어/기획 | `harness/workflow/20-project-lifecycle.md`, `harness/workflow/60-product-planning.md` |
 | 외주 | `harness/workflow/10-work-mode.md`, `harness/workflow/60-product-planning.md` |
@@ -41,6 +42,7 @@ Codex Work Harness는 Codex가 프로젝트를 매번 같은 기준으로 시작
 | 새 프로젝트 시작 | `harness/workflow/15-project-level.md`, `harness/workflow/65-development-pipeline.md` |
 | 서브에이전트 필요 | `harness/workflow/50-subagents.md` |
 | skill 선택 | `harness/workflow/30-skill-router.md` |
+| Codex rules/hooks 검토 | `harness/core/73-operational-guardrails.md` |
 | 보고 형식 필요 | `harness/core/90-report-format.md` |
 
 ## 토큰 절약

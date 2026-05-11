@@ -28,10 +28,11 @@ Use this skill to run the user's preferred Codex workflow.
 3. Classify project level: Simple, Connected, or Scale.
 4. Classify lifecycle: idea, planning, design, build, or review.
 5. Use Planning Cycle for features and major changes; skip it for quick fixes.
-6. Read only the relevant harness reference files.
-7. Use required Codex skills only.
-8. For large parallel work, use subagents with narrow ownership.
-9. Finish with concise report and verification status.
+6. Use a Task Card for multi-step work that does not need full planning docs.
+7. Read only the relevant harness reference files.
+8. Use required Codex skills only.
+9. For large parallel work, use subagents with narrow ownership.
+10. Finish with concise report and verification status.
 
 ## References
 Read only what is needed:
@@ -40,8 +41,10 @@ Read only what is needed:
 - `references/truthfulness.md`: no lying, verification honesty
 - `references/project-level.md`: Simple/Connected/Scale routing
 - `references/project-lifecycle.md`: idea to review workflow
+- `references/task-card.md`: lightweight task-scoped living plan
 - `references/planning-cycle.md`: Plan-Design-Build-Review-Improve workflow
 - `references/fact-based-reasoning.md`: fact, inference, uncertainty rules
+- `references/operational-guardrails.md`: scripts, rules, and hooks as guardrails
 - `references/beginner-explanation.md`: non-technical user explanations
 - `references/code-rules.md`: minimal code, cleanup, file separation
 - `references/comment-rules.md`: when to add or avoid comments
